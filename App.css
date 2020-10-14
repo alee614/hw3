@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@595&family=Inconsolata:wght@696&display=swap');
+html{
+  background-color: lemonchiffon;
+}
+
+.App {
+  text-align: center;
+  font-family: "Arial Rounded MT Bold";
+
+
+}
+
+.App h1 {
+  color:red;
+}
+
+.dropdown option{
+  font-family: 'Changa';
+}
+
+.App .searchSection{
+  width: 100%;
+  margin-top: 80px;
+}
+
+.App .searchSection .searchBar{
+  padding: 15px;
+  background-color: rgb(247, 205, 247);
+  border: none;
+  outline: none;
+  font-family: 'Changa';
+  
+}
+
+.App .searchSection .searchBar:hover{
+  background-color: bisque;
+}
+
+.App img {
+  height: 400px;
+  width: 400px;
+
+  object-fit: scale-down;
+  padding: 15px;
+
+}
+
+.App .search{
+  padding: 15px;
+  font-family: 'Changa';
+}
+.custom-btn {
+  font-family: 'Inconsolata';
+  max-width: 20%;
+  color: rgba(96, 9, 240, .5);
+  background-color: #000000;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 12px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    inset -7px -7px 10px 0px rgba(0,0,0,.1),7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  text-shadow:  2px 2px 3px rgba(255,255,255,.5),
+              -4px -4px 6px rgba(116, 125, 136, .2);
+  outline: none;
+
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 2%;
+  
+}
+
+.custom-btn:hover {
+  background-color: #e8d1ff;
+	box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  color: grey;
+}
+
+.custom-btn:before {
+	height: 0%;
+	width:2px;
+
+}
